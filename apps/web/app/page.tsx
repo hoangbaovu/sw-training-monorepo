@@ -1,10 +1,12 @@
-import { Button, Header } from "ui";
+"use client";
+import { Input } from "design-system";
 
 export default function Page() {
   return (
     <>
-      <Header text="Web" />
-      <Button />
+      <Input.Wrapper label="Input label">
+        <Input />
+      </Input.Wrapper>
     </>
   );
 }
